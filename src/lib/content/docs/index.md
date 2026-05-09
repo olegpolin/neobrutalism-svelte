@@ -3,6 +3,6 @@ title: Introduction
 description: Re-usable components built with Bits UI and Tailwind CSS.
 ---
 
-You can use the `shadcn-svelte` CLI to run your own component registry. Running your own component registry allows you to distribute your custom components, hooks, pages, and other files to any Svelte project.
+A collection of UI components for Svelte with the neobrutalism design style, based on <a href="https://www.shadcn-svelte.com" target="_blank" rel="noopener noreferrer">shadcn-svelte</a>.
 
-This is a template for creating a custom registry using SvelteKit.
+To use the components in your SvelteKit app, initialize shadcn-svelte, copy the `:root`, `.dark`, and `@theme inline` styles from `src/routes/layout.css` to your app's `layout.css`. Then, run the corresponding `npx shadcn-svelte add` commands from each component's docs page for the components you want to use.
