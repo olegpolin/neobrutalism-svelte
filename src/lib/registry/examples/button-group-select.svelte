@@ -26,7 +26,7 @@
 <ButtonGroup.Root>
   <ButtonGroup.Root>
     <Select.Root type="single" bind:value={currency}>
-      <Select.Trigger class="font-mono">
+      <Select.Trigger class="h-9! font-mono">
         {currency}
       </Select.Trigger>
       <Select.Content class="min-w-24">
