@@ -44,7 +44,7 @@
   class="sticky top-0 z-50 flex h-14 flex-row items-center justify-between gap-8 bg-background px-6 py-3"
 >
   <Popover.Root bind:open={mobileMenuOpen}>
-    <Popover.Trigger class={['gap-2.5! p-0! lg:hidden', buttonVariants({ variant: 'ghost' })]}>
+    <Popover.Trigger class={['gap-2.5! py-0! px-2! lg:hidden', buttonVariants({ variant: 'ghost' })]}>
       <div class="flex h-8 flex-row items-center">
         <div class="relative size-4">
           <span
