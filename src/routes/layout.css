@@ -42,37 +42,37 @@
 }
 
 .dark {
-  --background: oklch(0.2 0.02 85);
+  --background: oklch(0.3 0.01 255);
   --foreground: var(--color-neutral-50);
-  --card: oklch(0.2 0.02 85);
+  --card: oklch(0.3 0.01 255);
   --card-foreground: var(--color-neutral-50);
-  --popover: oklch(0.2 0.02 85);
+  --popover: oklch(0.3 0.01 255);
   --popover-foreground: var(--color-neutral-50);
-  --primary: var(--color-amber-800);
-  --primary-foreground: var(--color-neutral-50);
-  --secondary: var(--color-blue-800);
-  --secondary-foreground: var(--color-neutral-50);
-  --muted: oklch(0.25 0.02 85);
-  --muted-foreground: var(--color-neutral-400);
-  --accent: var(--color-orange-900);
+  --primary: var(--color-amber-400);
+  --primary-foreground: var(--color-neutral-950);
+  --secondary: var(--color-blue-400);
+  --secondary-foreground: var(--color-neutral-950);
+  --muted: oklch(0.35 0.01 255);
+  --muted-foreground: var(--color-neutral-300);
+  --accent: var(--color-orange-800);
   --accent-foreground: var(--color-neutral-50);
-  --destructive: var(--color-red-400);
-  --border: var(--color-neutral-700);
-  --input: var(--color-neutral-700);
-  --ring: var(--color-neutral-700);
+  --destructive: var(--color-red-500);
+  --border: var(--color-neutral-950);
+  --input: var(--color-neutral-950);
+  --ring: var(--color-neutral-950);
   --chart-1: var(--color-neutral-300);
   --chart-2: var(--color-neutral-500);
   --chart-3: var(--color-neutral-600);
   --chart-4: var(--color-neutral-700);
   --chart-5: var(--color-neutral-800);
-  --sidebar: var(--color-neutral-900);
+  --sidebar: var(--color-neutral-800);
   --sidebar-foreground: var(--color-neutral-50);
-  --sidebar-primary: var(--color-blue-700);
-  --sidebar-primary-foreground: var(--color-neutral-50);
+  --sidebar-primary: var(--color-amber-400);
+  --sidebar-primary-foreground: var(--color-neutral-950);
   --sidebar-accent: var(--color-neutral-700);
   --sidebar-accent-foreground: var(--color-neutral-50);
-  --sidebar-border: var(--color-neutral-700);
-  --sidebar-ring: var(--color-neutral-500);
+  --sidebar-border: var(--color-neutral-950);
+  --sidebar-ring: var(--color-neutral-950);
 }
 
 @theme inline {
